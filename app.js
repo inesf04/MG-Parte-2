@@ -5,7 +5,7 @@ function convertirTexto(texto) {
     
     if (texto !== null)  {
         // elimino caracteres en blanco al inicio y al final 
-        //texto = texto.trim()
+        texto = texto.trim()
         // lo convierto en array de palabras usando " " como separador
         let listaPalabras = texto.split(" ")
         // recorro el arreglo y transaformo cada palabra
